@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+
+    <!--. class demek # id demek div tagında-->
+</head>
+
+<style>
+    .formDiv {
+
+        width: 300px;
+
+        background-color: cyan;
+
+    }
+</style>
+
+
+
+<body>
+    <center>
+        <div class="formDiv">
+            <form action="">
+
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" placeholder="name"></td>
+                    </tr>
+                    <tr>
+                        <td>Surname:</td>
+                        <td><input type="text" placeholder="surname"></td>
+
+                    </tr>
+
+                    <tr>
+                        <td>E-mail:</td>
+                        <td><input type="email" placeholder="email"></td>
+
+                    </tr>
+
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="password" placeholder="password"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <label for="Manradio">Man</label>
+                            <input type="radio" id="Manradio" name="Genderradio" value="Man">
+
+                            <label for="Womanradio">Woman</label>
+                            <input type="radio" id="Womanradio" name="Genderradio" value="Woman">
+
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>Date of Birth</td>
+                        <td><input type="date"></td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td colspan="2" align="center"><b><ins>HOBBiES</ins></b></td>
+
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Reading Books:
+                            <input type="checkbox">
+                            Play Guitar:
+                            <input type="checkbox">
+
+                    </tr>
+
+                    <tr>
+                        <td>Your Paint:</td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr>
+
+                        <td colspan="2"><textarea cols="35" rows="15" placeholder="Your message"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><input type="submit" name="Send" value="Send"><input type="reset" name="Reset"
+                                value="Reset"></td>
+                    </tr>
+
+
+                </table>
+
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
